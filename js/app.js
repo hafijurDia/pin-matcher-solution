@@ -47,8 +47,10 @@ document.getElementById('btn-submit').addEventListener('click',function(){
 
     const typednumberfield = document.getElementById('number-field');
     const typedPin = typednumberfield.value;
+
     const getSuccessSms = document.getElementById('success-message');
     const failSms = document.getElementById('failed-message');
+    
     if (generatedPin === typedPin) {
         
         getSuccessSms.style.display = 'block';
